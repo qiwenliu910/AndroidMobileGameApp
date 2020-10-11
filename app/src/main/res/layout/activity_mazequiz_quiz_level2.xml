@@ -1,0 +1,168 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/linearLayout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <Button
+        android:id="@+id/choiceA"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="34dp"
+        android:layout_marginBottom="20dp"
+        android:text="@string/a"
+        app:layout_constraintBottom_toTopOf="@+id/choiceB"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <Button
+        android:id="@+id/choiceB"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="34dp"
+        android:layout_marginBottom="20dp"
+        android:text="@string/b"
+        app:layout_constraintBottom_toTopOf="@+id/choiceC"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <Button
+        android:id="@+id/choiceC"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="34dp"
+        android:layout_marginBottom="20dp"
+        android:text="@string/c"
+        app:layout_constraintBottom_toTopOf="@+id/choiceD"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <Button
+        android:id="@+id/choiceD"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="34dp"
+        android:layout_marginBottom="20dp"
+        android:text="@string/d"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <TextView
+        android:id="@+id/question"
+        android:layout_width="326dp"
+        android:layout_height="141dp"
+        android:layout_marginStart="34dp"
+        android:layout_marginBottom="40dp"
+        android:text="@string/question"
+        android:textSize="30sp"
+        app:layout_constraintBottom_toTopOf="@+id/next"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <TextView
+        android:id="@+id/answerA"
+        android:layout_width="245dp"
+        android:layout_height="48dp"
+        android:layout_marginStart="30dp"
+        android:layout_marginBottom="20dp"
+        android:text="@string/answer"
+        android:textSize="20sp"
+        app:layout_constraintBottom_toTopOf="@+id/answerB"
+        app:layout_constraintStart_toEndOf="@+id/choiceA" />
+
+    <TextView
+        android:id="@+id/answerB"
+        android:layout_width="245dp"
+        android:layout_height="48dp"
+        android:layout_marginStart="30dp"
+        android:layout_marginBottom="20dp"
+        android:text="@string/answer"
+        android:textSize="20sp"
+        app:layout_constraintBottom_toTopOf="@+id/answerC"
+        app:layout_constraintStart_toEndOf="@+id/choiceB" />
+
+    <TextView
+        android:id="@+id/answerC"
+        android:layout_width="245dp"
+        android:layout_height="48dp"
+        android:layout_marginStart="30dp"
+        android:layout_marginBottom="20dp"
+        android:text="@string/answer"
+        android:textSize="20sp"
+        app:layout_constraintBottom_toTopOf="@+id/answerD"
+        app:layout_constraintStart_toEndOf="@+id/choiceC" />
+
+    <TextView
+        android:id="@+id/answerD"
+        android:layout_width="245dp"
+        android:layout_height="48dp"
+        android:layout_marginStart="30dp"
+        android:layout_marginBottom="20dp"
+        android:text="@string/answer"
+        android:textSize="20sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/choiceD" />
+
+    <Button
+        android:id="@+id/next"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="29dp"
+        android:layout_marginBottom="60dp"
+        android:text="@string/next"
+        app:layout_constraintBottom_toTopOf="@+id/answerA"
+        app:layout_constraintEnd_toEndOf="parent" />
+
+    <TextView
+        android:id="@+id/textView13"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="201dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginEnd="47dp"
+        android:text="@string/money"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/button88"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/textView14"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="201dp"
+        android:layout_marginTop="5dp"
+        android:layout_marginEnd="52dp"
+        android:text="@string/score"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/button88"
+        app:layout_constraintTop_toBottomOf="@+id/textView13" />
+
+    <Button
+        android:id="@+id/button88"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="34dp"
+        android:layout_marginTop="20dp"
+        android:text="@string/quit"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/hint"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="34dp"
+        android:layout_marginBottom="60dp"
+        android:text="@string/gethint"
+        app:layout_constraintBottom_toTopOf="@+id/choiceA"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <TextView
+        android:id="@+id/TVtimer"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="322dp"
+        android:layout_marginTop="5dp"
+        android:text="@string/_00_00"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView14" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

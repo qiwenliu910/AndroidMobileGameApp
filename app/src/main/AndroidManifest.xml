@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    package="com.example.gameproject">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme"
+        tools:ignore="AllowBackup,GoogleAppIndexingWarning">
+
+        <activity android:name=".game1.BlendokuBonusLevel" />
+        <activity android:name=".game1.BlendokuLevel3" />
+        <activity android:name=".game1.BlendokuLevel2" />
+        <activity android:name=".game1.BlendokuLevel1" />
+        <activity android:name=".game1.BlendokuLevel" />
+        <activity android:name=".game1.Game1Activity" />
+
+        <activity android:name=".game2.Game2Activity" />
+        <activity android:name=".game2.Game2Bonus" />
+        <activity android:name=".game2.HorseRace" />
+        <activity android:name=".game2.RaceLevel1" />
+        <activity android:name=".game2.RaceLevel2" />
+        <activity android:name=".game2.RaceLevel3" />
+
+        <activity android:name=".game3.view.Game3MazeFront" />
+        <activity android:name=".game3.presenter.MazeLevel1" />
+        <activity android:name=".game3.presenter.QuizLevel3" />
+        <activity android:name=".game3.presenter.QuizLevel2" />
+        <activity android:name=".game3.presenter.QuizLevelBonus" />
+        <activity android:name=".game3.view.Game3QuizFront" />
+
+        <activity android:name=".mainactivity.ScoreBoardActivity" />
+        <activity android:name=".shared.sharedtimer.TimesUp" />
+        <activity android:name=".shared.sharedtimer.TimeCounter" />
+        <activity android:name=".shared.BaseActivity" />
+        <activity android:name=".shared.Updater" />
+
+        <activity android:name=".mainactivity.MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".mainactivity.RegisterActivity" />
+        <activity android:name=".mainactivity.HomeActivity" />
+        <activity android:name=".mainactivity.LevelAcitivity" />
+        <activity android:name=".mainactivity.StoreActivity" />
+    </application>
+
+</manifest>

@@ -1,0 +1,291 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".game2.RaceLevel1">
+
+    <Button
+        android:id="@+id/buttonRun"
+        android:layout_width="166dp"
+        android:layout_height="37dp"
+        android:layout_marginBottom="64dp"
+        android:enabled="false"
+        android:text="See Result"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <TextView
+        android:id="@+id/level1"
+        android:layout_width="90dp"
+        android:layout_height="29dp"
+        android:layout_marginBottom="620dp"
+        android:text="LEVEL 1"
+        android:textSize="20sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.529"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <TextView
+        android:id="@+id/textMoney"
+        android:layout_width="119dp"
+        android:layout_height="36dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginBottom="132dp"
+        android:text="Money: "
+        android:textSize="18sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <TextView
+        android:id="@+id/textScore"
+        android:layout_width="119dp"
+        android:layout_height="32dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginBottom="104dp"
+        android:text="Score: "
+        android:textSize="18sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <TextView
+        android:id="@+id/textInstruction"
+        android:layout_width="364dp"
+        android:layout_height="35dp"
+        android:layout_marginBottom="164dp"
+        android:text="Instruction"
+        android:textSize="18sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <Button
+        android:id="@+id/buttonBet"
+        android:layout_width="107dp"
+        android:layout_height="39dp"
+        android:layout_marginBottom="16dp"
+        android:enabled="false"
+        android:text="Bet"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.726"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <Button
+        android:id="@+id/BTNnextLevel"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="272dp"
+        android:onClick="onClick"
+        android:text="Next Level"
+        app:layout_constraintStart_toEndOf="@+id/view"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/BTNHome"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="136dp"
+        android:layout_marginTop="272dp"
+        android:onClick="onClick"
+        android:text="Home"
+        app:layout_constraintStart_toEndOf="@+id/view"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/buttonHorse3"
+        android:layout_width="72dp"
+        android:layout_height="39dp"
+        android:layout_marginBottom="240dp"
+        android:enabled="true"
+        android:text="Horse3"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.015"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <Button
+        android:id="@+id/buttonHorse2"
+        android:layout_width="72dp"
+        android:layout_height="42dp"
+        android:layout_marginBottom="376dp"
+        android:enabled="true"
+        android:text="Horse2"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.015"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <TextView
+        android:id="@+id/endPoint"
+        android:layout_width="43dp"
+        android:layout_height="21dp"
+        android:layout_marginBottom="610dp"
+        android:text="END"
+        android:textSize="20sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.797"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <TextView
+        android:id="@+id/bet"
+        android:layout_width="44dp"
+        android:layout_height="32dp"
+        android:layout_marginBottom="572dp"
+        android:text="BET"
+        android:textSize="20sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.936"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <TextView
+        android:id="@+id/startPoint"
+        android:layout_width="71dp"
+        android:layout_height="32dp"
+        android:layout_marginBottom="600dp"
+        android:text="START"
+        android:textSize="20sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.158"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <View
+        android:id="@+id/view"
+        android:layout_width="1dp"
+        android:layout_height="370dp"
+        android:layout_marginBottom="224dp"
+        android:layout_weight="1"
+        android:background="@color/colorAccent"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.204"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <View
+        android:id="@+id/view2"
+        android:layout_width="1dp"
+        android:layout_height="370dp"
+        android:layout_marginBottom="224dp"
+        android:layout_weight="1"
+        android:background="@color/colorAccent"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.762"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <Button
+        android:id="@+id/buttonHorse1"
+        android:layout_width="72dp"
+        android:layout_height="42dp"
+        android:layout_marginBottom="512dp"
+        android:enabled="true"
+        android:text="Horse1"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.015"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <TextView
+        android:id="@+id/textHorse1Bet"
+        android:layout_width="49dp"
+        android:layout_height="26dp"
+        android:layout_marginStart="344dp"
+        android:layout_marginBottom="516dp"
+        android:textSize="18sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <TextView
+        android:id="@+id/textHorse2Bet"
+        android:layout_width="49dp"
+        android:layout_height="26dp"
+        android:layout_marginStart="344dp"
+        android:layout_marginBottom="384dp"
+        android:textSize="18sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <TextView
+        android:id="@+id/textHorse3Bet"
+        android:layout_width="49dp"
+        android:layout_height="26dp"
+        android:layout_marginStart="344dp"
+        android:layout_marginBottom="248dp"
+        android:textSize="18sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <TextView
+        android:id="@+id/textWinner"
+        android:layout_width="195dp"
+        android:layout_height="39dp"
+        android:layout_marginStart="92dp"
+        android:layout_marginBottom="292dp"
+        android:background="#68CFE0"
+        android:gravity="center"
+        android:textSize="15sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <EditText
+        android:id="@+id/textBetAmount"
+        android:layout_width="104dp"
+        android:layout_height="48dp"
+        android:layout_marginBottom="16dp"
+        android:ems="10"
+        android:enabled="false"
+        android:inputType="number"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.276"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <ImageView
+        android:id="@+id/H1"
+        android:layout_width="45dp"
+        android:layout_height="45dp"
+        android:layout_marginStart="5dp"
+        android:layout_marginTop="47dp"
+        app:layout_constraintStart_toEndOf="@+id/view"
+        app:layout_constraintTop_toBottomOf="@+id/startPoint"
+        app:srcCompat="@drawable/h0_1" />
+
+    <ImageView
+        android:id="@+id/H2"
+        android:layout_width="45dp"
+        android:layout_height="45dp"
+        android:layout_marginStart="5dp"
+        android:layout_marginTop="96dp"
+        app:layout_constraintStart_toEndOf="@+id/view"
+        app:layout_constraintTop_toBottomOf="@+id/H1"
+        app:srcCompat="@drawable/h0_2" />
+
+    <ImageView
+        android:id="@+id/H3"
+        android:layout_width="45dp"
+        android:layout_height="45dp"
+        android:layout_marginStart="5dp"
+        android:layout_marginTop="14dp"
+        app:layout_constraintStart_toEndOf="@+id/view"
+        app:layout_constraintTop_toBottomOf="@+id/textWinner"
+        app:srcCompat="@drawable/h0_3" />
+
+    <TextView
+        android:id="@+id/TVtimer"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="23dp"
+        android:layout_marginEnd="41dp"
+        android:text="00:00"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textInstruction" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

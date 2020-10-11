@@ -1,0 +1,42 @@
+<resources>
+    <string name="app_name">Game Project</string>
+    <string name="False">False</string>
+    <string name="next">next</string>
+    <string name="True">True</string>
+    <string name="question">Question</string>
+    <string name="money">Money</string>
+    <string name="score">Score</string>
+    <string name="gethint">getHint</string>
+    <string name="quit">Quit</string>
+    <string name="_00_00">00:00</string>
+    <string name="quiz_time">Quiz Time !</string>
+    <string name="a">A</string>
+    <string name="b">B</string>
+    <string name="c">C</string>
+    <string name="d">D</string>
+    <string name="answer">Answer</string>
+    <string name="start">Start</string>
+    <string name="level2">Level2</string>
+    <string name="level3">Level3</string>
+    <string name="store">Store</string>
+    <string name="welcome">Welcome</string>
+    <string name="log_out">Log out</string>
+    <string name="Blendoku">Blendoku</string>
+    <string name="instruction">instruction</string>
+    <string name="home">home</string>
+    <string name="confirm">confirm</string>
+    <string name="color_err1">color_err1</string>
+    <string name="num_err1">num_err1</string>
+    <string name="attempt">attempt</string>
+    <string name="correct">correct</string>
+    <string name="new_game">new game</string>
+    <string name="resume">resume</string>
+    <string name="error_info">error info</string>
+    <string name="go_back">back</string>
+    <string name="see_result">see result</string>
+    <string name="play_game">play game</string>
+    <string name="game2_bonus_text">You have entered the bonus level! pick your favorite animal and
+        take your chance to earn extra money!</string>
+    <string name="game1_instruction1">Blendoku is a color arranging game.</string>
+</resources>
+

@@ -1,0 +1,24 @@
+1. Gradle Sync
+Unable to get Gradle wrapper properties from:
+...
+Would you like to recreate the wrapper usimg the latest supported Gradle version?
+
+This error might pop up when clone the project from repository. Just click OK. It would not have
+any effect on the program.
+
+2. After the first window pop up, this error message might show up
+ERROR: SDK location not found. Define a location by setting the ...
+Set sdk.dir in local.properties and sync project
+Affected Modules: app
+We accidentally push the local.properties file onto repository when first copy the files. Although
+we manage to remove that file later, whenever we clone, this problem will show up. Click the second
+line that has underscore. Android Studio will fix the path for you.
+
+3. Some changes were accidentally pushed to phase1 folder, but theses changes were also pushed into
+ phase2 folder.
+
+4. If the version cannot run due to UML problem, please hard revert to version "Delete unnecessary
+codes" by Haiyue Yang in 2019-12-01 23:53.
+
+5. If the version cannot run due to set up problem, please delete the .idea folder in phase2 folder
+and reopen andriod studio.

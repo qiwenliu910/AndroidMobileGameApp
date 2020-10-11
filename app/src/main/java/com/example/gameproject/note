@@ -1,0 +1,214 @@
+1. Created the login page.
+
+2. Created the register page.
+
+3. Accommodate the login page to the register page.
+
+4. Created home page and three game levels. Modified User Class.
+
+5. Created the home page for Blendoku. Modified User Class.
+
+6. Store user information in a local txt file. Modify RegisterActivity.createUser and
+MainActivity.login. (need to deal with resume information later)
+
+7. Created a layout for game2.
+
+8. Added methods that deal with buttons in Game2Activity.
+
+9. Created HorseRaceView, MainThread, HorseRaceManager, and Horse classes.
+
+10. Modified HorseRaceManager.update, and Game2Activity.onClick.
+
+11. Deleted HorseRaceView, MainThread, HorseRaceManager, and Horse classes.
+
+12. Added more textViews in activity_game2.xml.
+
+13. Created the game for level1.
+
+14. Add on to game2, introduce a horse object.
+
+15. Added log out to the homepage.
+
+16. Fixed some warnings. Simplified code in Blendoku1.java.
+
+17. Added a "correct notice" after the game is completed.
+
+18. Made the "correct notice" visible when game1 is completed.
+
+19. Set up a question bank for Blendoku.
+
+20. Modified Game2Activity.onClick (set up rules for betting).
+
+21. Added .collectedReward, .setSelected, .showResult to Game2Activity.
+
+22. Added a new variable in Horse class and created getter and setter methods to access the variable.
+
+23. Added new methods regarding collecting the rewards in Game2.
+
+24. Added Blendoku2 and Blendoku3 to AndroidManifest.
+
+25. Add a new MazeGame connected to Game3 level1.
+
+26. Added the instruction page for Game1.
+
+27. Add new activity to manifest.
+
+28. Added background image to git.
+
+29. Modified Game2Activity.onClick (dealing with invalid input).
+
+30. Modified HomeActivity. Added home button to instruction page of Blendoku.
+
+31. Modifited the layout of HomeActivity.
+
+32. Modified Game2Activity.onClick (dealing with invalid input).
+
+33. Set up rules for scoring for game2 and displayed the score on Game2 layout.
+
+34. Modified Game2Activity to display the winner after the game.
+
+35. Modified the layout for game2.
+
+36. Renamed(refactored) activity_2 to activity_horserace.
+
+37. Created new layout called activity_2 (instruction page for game2).
+
+38. Add more instance variables to User class to keep track of all user information.
+
+39. Pass the User object to each screen instead of having a public getPlayer method.
+
+40. Introduce a UserManager class to manage all users.
+
+41. Modified HorseRace class (dealing with a player with no money to bet).
+
+42. Added comments for methods in game2.
+
+43. Added background to main page, register page, and home page.
+
+44. Created a RaceManager class and moved some methods from HorseRace to RaceManager class.
+
+45. Cleaned up the codes in HorseRace, Horse, and RaceManager classes.
+
+46. Add homepage for maze game, and connect maze game to game3 homepage.
+
+47. Little change to color of button in the home page.
+
+48. Implement local store, enable storing UserManager as an object. Update resume.
+
+49. Add a timer on screen to each game.
+
+50. Add a ScoreBoard. need to append the screen after finish game3.
+
+51. Update timer when time's up
+
+52. "Clean up" code.
+
+53. Phase2
+    Put Game3 files in one folder, add commit of game3 code and reformat code.
+
+54. Class affected: Store, Scoreboard, HorseRace, RegisterActivity, HomeActivity, TimesUp,
+ Game2Activity
+Split long methods and rename variables using java format. Setup the instances variables,
+colourScheme and onClickListener using builder design pattern.
+
+55. Set color by random.
+
+56.encapsulate some method using helper function in game3, modify some class name in game3 to
+make it more clear.
+
+57. Created the package for Game1 and the game skeleton. Also, writer a helper class for tiemcounter.
+
+58. Fix some bug when setting colors.
+
+59. Created a new package for game2 and moved classes for game2 into the package.
+
+60. Created new classes called GameManager and TimeManager.
+
+61. Create Object ObjectManger(store instance of ScoreManager and UserManager) and
+ScoreManager(stores scoring information).
+
+62. Fixed an error in game2.
+
+63. Modified some classes to extend GameManager or TimeManager. (Simplified codes in each class)
+
+64. Modified LevelHome and BlendokuLevel1 to extend Updater and GameManager respectively.
+
+65. Renamed Updater in game1 package to Game1Updater.
+
+66. Fixed errors in game2.
+
+67.separate some packages.
+
+68. fixed error - switch screen from QuizActivityLevel2 to Bonus level.
+
+69. Created new classes and layout: Game2Bonus, RaceLevel2
+
+70. modified Game1Activity to extend GameManager
+
+71. Introduce objectManager to the game. Passing objectManager around.
+
+72. Fix the bug in Game1;
+
+73. Delete unnecessary codes in Game1;
+
+74. Created RaceLevel2 and RaceLevel3, and modified game2 to have 3 different levels.
+
+75. Fixed bugs in Game2.
+
+76. Added game1.BlendokuLevel2.java and README.txt
+
+77. Added game1.BlendokuLevel3.java, changed manifest
+
+78. Related game1.Blendokulevel2 & game1.Blendukulevel3 with corresponding xml files.
+
+79. Created parent class BlendokuLevel for all BlendokuLevel1, BlendokuLevel2 and BlendokuLevel3.
+
+80. Made BlendukuLevel2 and BlendukuLevel3 subclasses of BlendokuLevel.
+
+81. Update level in game1.
+
+82. Keeping tracking whether the user can get into the bonus level for game1.
+
+83. Edit some warnings in Game1;
+
+83. Modified Game2. (modified moveToNext to moveToHome)
+
+84. Fixed an error in Game2. (error caused when user tries to resume game2)
+
+85. Added documentations to the classes in game2.
+
+86. Added a subclass RandomColorBonus of RandomColor to generate random color for the bonus level.
+
+87. Added a method to zero for the record of number of attempt in Game1.
+
+88. Added comment to files in Game 1, modified manifest, modified README.txt.
+
+89. Added game1.BlendokuBonusLevel.java, added comment to Game1.
+
+90. Finished the implementation of Bonus Level for Game1.
+
+91. Added a background to level_home.xml
+
+92. Fixed some bug in RandomColor of Game1.
+
+93. Fixed some bug in recording scores of Game1.
+
+94. Changed access modifiers for some methods in RaceLevel3.
+
+95. Added comment to Game1, modified layout for BlendokuBonusLevel.
+
+96. Created a new class called RaceLevel1 in game2.
+
+97. Modified RaceLevel1,2, and 3 to extend HorseRace.
+
+98. Added comment to Game1.
+
+99. Deleted some unnecessary codes.
+
+100. Deleted some unnecessary codes, modified manifest, added comment on Game1, fixed some warnings.
+
+101. Changed access modifiers for the classes in game2, GameManager, and Updater.
+
+102. Fixed bugs in Bonus Level of Game1.
+
+103. Delete unnecessary codes.
